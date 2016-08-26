@@ -1,7 +1,6 @@
 * { box-sizing: border-box; }
-
-
- p {
+ 
+p {
  	font-family: times;
  	color:  #990099;
  	text-align: justify;
@@ -23,6 +22,7 @@
  	color: #330033;
  }
  .title {
+ 	line-height: 200px;
  	position: absolute;
  	top: 0;
  	right: 0;
@@ -54,7 +54,7 @@
 @media only screen and (min-width: 992px) {
 	#section1, #section2, #section3 {
 		display: inline-block;
-		width: 33%;
+		width: 32%;
 	} 
 }
 
